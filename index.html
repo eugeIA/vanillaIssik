@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conseils & Astuces</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">
+                <a href="/">Conseils & Astuces</a>
+            </div>
+            <button class="menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <div class="nav-links">
+                <a href="#explorer">Explorer</a>
+                <a href="#categories">Catégories</a>
+            </div>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sun-icon"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="moon-icon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Partagez et découvrez des conseils utiles</h1>
+                <p>Une communauté dédiée au partage de connaissances et d'astuces pratiques</p>
+                <div class="hero-buttons">
+                    <a href="#explorer" class="hero-button hero-button-primary">Explorer les conseils</a>
+                    <a href="#categories" class="hero-button hero-button-secondary">Voir les catégories</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section">
+            <div class="container">
+                <div class="featured-grid">
+                    <div class="featured-content">
+                        <h2>Découvrez les meilleurs conseils de la communauté</h2>
+                        <p>Notre communauté partage chaque jour des conseils précieux dans de nombreux domaines. Rejoignez-nous pour apprendre et partager vos connaissances.</p>
+                        <a href="#explorer" class="button button-primary">Commencer maintenant</a>
+                    </div>
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Communauté d'entraide">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Catégories populaires</h2>
+                    <p>Explorez nos différentes catégories pour trouver les conseils qui vous intéressent</p>
+                </div>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=500&q=80" alt="Cuisine" class="category-image">
+                        <div class="category-content">
+                            <h3>Cuisine</h3>
+                            <p>Astuces culinaires et recettes</p>
+                            <div class="category-meta">
+                                <span>150+ conseils</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=500&q=80" alt="Technologie" class="category-image">
+                        <div class="category-content">
+                            <h3>Technologie</h3>
+                            <p>Conseils tech et astuces</p>
+                            <div class="category-meta">
+                                <span>200+ conseils</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=500&q=80" alt="Fitness" class="category-image">
+                        <div class="category-content">
+                            <h3>Fitness</h3>
+                            <p>Exercices et bien-être</p>
+                            <div class="category-meta">
+                                <span>180+ conseils</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=500&q=80" alt="Jardinage" class="category-image">
+                        <div class="category-content">
+                            <h3>Jardinage</h3>
+                            <p>Conseils pour votre jardin</p>
+                            <div class="category-meta">
+                                <span>120+ conseils</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>10k+</h3>
+                        <p>Conseils partagés</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50k+</h3>
+                        <p>Membres actifs</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100k+</h3>
+                        <p>Conseils sauvegardés</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="explorer" class="tips-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Conseils récents</h2>
+                    <p>Découvrez les derniers conseils partagés par notre communauté</p>
+                </div>
+                <div class="tips-grid">
+                    <article class="tip-card">
+                        <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=500&q=80" alt="Productivité" class="tip-image">
+                        <div class="tip-content">
+                            <h3>Comment améliorer votre productivité</h3>
+                            <p>Découvrez les meilleures techniques pour optimiser votre temps et augmenter votre efficacité au quotidien.</p>
+                            <div class="tip-meta">
+                                <span class="tip-category">Productivité</span>
+                                <span class="tip-date">Il y a 2 jours</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="tip-card">
+                        <img src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&w=500&q=80" alt="Cuisine" class="tip-image">
+                        <div class="tip-content">
+                            <h3>Recette de pâtes à la carbonara</h3>
+                            <p>La véritable recette italienne des pâtes à la carbonara, simple et délicieuse.</p>
+                            <div class="tip-meta">
+                                <span class="tip-category">Cuisine</span>
+                                <span class="tip-date">Il y a 3 jours</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="tip-card">
+                        <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=500&q=80" alt="Photographie" class="tip-image">
+                        <div class="tip-content">
+                            <h3>Débuter en photographie</h3>
+                            <p>Les bases essentielles pour bien débuter en photographie et réussir vos premiers clichés.</p>
+                            <div class="tip-meta">
+                                <span class="tip-category">Photographie</span>
+                                <span class="tip-date">Il y a 4 jours</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+           
+            <div class="footer-links">
+                Par conseil&astuces
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
